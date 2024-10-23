@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "username": "sandeep",
+      "email": "mailto:sandeep123@gmail.com",
+      "password": "sandeep234",
+      "confirmpassword": "mahindra-XUV",
+      "role": "user",
+      "id": "43a8"
+    },
+    {
+      "id": "9bda",
+      "username": "dharanesh",
+      "email": "mailto:dh@gmail.com",
+      "password": "d12345",
+      "confirmPassword": "d12345",
+      "role": "user"
+    },
+    {
+      "id": "973c",
+      "username": "dharanesh",
+      "email": "mailto:dh@gmail.com",
+      "password": "d12345",
+      "confirmPassword": "d12345",
+      "role": "cheff"
+    },
+    {
+      "id": "5298",
+      "username": "dharanesh",
+      "email": "mailto:dh@gmail.com",
+      "password": "d1234",
+      "confirmPassword": "d1234",
+      "role": "user"
+    },
+    {
+      "id": "b5d1",
+      "username": "Siva",
+      "email": "Siva123@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "role": "user",
+      "": "S"
+    },
+    {
+      "id": "b3ee",
+      "username": "Deva",
+      "email": "deva@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "role": "cheff"
+    },
+    {
+      "id": "88f5",
+      "username": "Deva",
+      "email": "deva@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "role": "cheff"
+    },
+    {
+      "id": "445c",
+      "username": "Siva",
+      "email": "deva@gmail.com",
+      "password": "aaa",
+      "confirmPassword": "aaa",
+      "role": "user"
+    },
+    {
+      "id": "b244",
+      "username": "Siva",
+      "email": "deva@gmail.com",
+      "password": "aaa",
+      "confirmPassword": "aaa",
+      "role": "user"
+    }
+  ]
+}

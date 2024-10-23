@@ -1,0 +1,38 @@
+.carousel {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Adjust height as needed */
+    overflow: hidden; /* Prevent overflow */
+    margin-bottom: 20px;
+  }
+  
+  .carousel-inner {
+    height: 100%; /* Ensure inner container takes full height */
+  }
+  
+  .carousel-item {
+    height: 100%; /* Ensure each carousel item takes full height */
+  }
+  
+  .carousel img {
+    width: 100%; /* Make image take full width */
+    height: 100%; /* Make image take full height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 5px; /* Optional: Add some rounded corners */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Background for the navigation icons */
+    border-radius: 50%; /* Round navigation buttons */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%; /* Adjust button width */
+  }
+  
+  /* Add margin to separate header and content */
+  .header {
+    margin-bottom: 20px; /* Space between header and content */
+  }
+  

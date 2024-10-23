@@ -1,0 +1,100 @@
+/* src/ChefLogin.css */
+.chef-login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f2f5; /* Light background */
+    transition: background-color 0.5s ease;
+  }
+  
+  .image-section {
+    flex: 1;
+    padding-right: 20px; /* Space between image and form */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .welcome-text {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .form-section {
+    flex: 1;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  .card-title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    transition: border-color 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .toggle-link {
+    color: green;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .toggle-link:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Change color on hover */
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .chef-login-container {
+      flex-direction: column; /* Stack on small screens */
+    }
+    .image-section, .form-section {
+      width: 100%; /* Full width on mobile */
+      padding: 10px 0;
+    }
+    .welcome-text {
+      font-size: 1.5rem;
+    }
+  }
+  

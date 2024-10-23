@@ -1,0 +1,211 @@
+/* Side bar Image */
+.sidebar-image-container {
+    text-align: center; /* Center the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.sidebar-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 100px; /* Set a maximum width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular image */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .sidebar-image {
+        max-width: 80px; /* Smaller max width for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar-image {
+        max-width: 60px; /* Further smaller max width for very small screens */
+    }
+}
+
+
+.sidebar {
+    width: 250px;
+    background-color: green;
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+
+.sidebar-item {
+    padding: 15px;
+    cursor: pointer;
+}
+
+p {
+    color: black;
+}
+.head{
+    color:green;
+}
+.sidebar-item:hover {
+    background-color: #28d244;
+    border-radius: 10px;
+}
+
+/* Popup styles */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s;
+}
+
+.popup-content {
+    background: white;
+    padding: 30px; /* Increased padding for a spacious look */
+    border-radius: 8px; /* Slightly larger border radius */
+    width: 400px; /* Increased width */
+    max-width: 90%; /* Responsive width */
+    position: relative;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    color: green; /* Change color as needed */
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px; /* Spacing between form fields */
+}
+
+input.form-control {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Border radius for inputs */
+    transition: border-color 0.3s; /* Transition for border color */
+}
+
+input.form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styles */
+.btn {
+    width: 100%; /* Full width for buttons */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: green; /* Button color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for background */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Additional line below the submit button */
+.submit-line {
+    text-align: center; /* Centered text */
+    margin-top: 10px; /* Space above line */
+    color:black;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .popup-content {
+        width: 90%; /* Adjust width for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .popup-content {
+        width: 95%; /* Further adjustment for smaller screens */
+    }
+}
+.sidebar-link {
+    color: inherit; /* Inherit color from the parent */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the entire area clickable */
+    padding: 10px; /* Optional: add some padding */
+    transition: background-color 0.3s; /* Add a transition for hover effects */
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgba(253, 251, 251, 0.1); 
+  }
+  
+.header {
+    background-color: #f8f9fa; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    position: relative;
+   
+}
+
+.logo {
+    flex: 0 0 auto; 
+}
+
+.search-form {
+    flex: 1; 
+    max-width: 700px; 
+}
+
+.search-form .form-control {
+    width: 100%; 
+}
+
+.login-button {
+    margin-left: 20px !important; 
+    max-width: 100px !important;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .search-form {
+        margin-top: 10px; 
+        width: 100%; 
+    }
+
+    .login-button {
+        margin-top: 10px; 
+    }
+}
+
+  
